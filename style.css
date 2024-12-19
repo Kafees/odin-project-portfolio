@@ -151,12 +151,12 @@ button:hover {
 }
 
 .project-img {
-    border: 5px solid var(--blue);
+    border: 5px solid transparent;
     border-radius: 15px;
 }
 
 .project-img:hover {
-    border: 5px solid var(--orange);
+    border: 5px solid var(--blue);
     cursor: pointer;
 }
 
