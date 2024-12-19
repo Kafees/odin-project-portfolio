@@ -118,6 +118,10 @@ button:hover {
     background-color: bisque;
     padding: 10px 200px;
     min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects-heading {
@@ -129,7 +133,8 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 50px;
+    max-width: 1000px;
 }
 
 .project-wrapper {
@@ -137,7 +142,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 250px;
 }
 
 .project-img {
