@@ -24,6 +24,10 @@ button:hover {
     color: var(--darkblue);
 }
 
+#hero, #projects, #quote-section {
+    scroll-margin-top: 110px;
+}
+
 /* HEADER */
 
 .header {
@@ -116,17 +120,19 @@ button:hover {
 
 .projects {
     background-color: bisque;
-    padding: 10px 200px;
+    padding: 50px 200px 90px;
     min-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--darkblue);
 }
 
 .projects-heading {
     text-align: center;
-    margin-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 50px;
 }
 
 .project-gallery {
@@ -165,4 +171,26 @@ button:hover {
     width: 300px;
     text-align: center;
     font-size: 14px;
+}
+
+/* QUOTE */
+
+.quote-section {
+    background-color: var(--textsecondary);
+    display: flex;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--darkblue);
+}
+
+.quote-author {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--darkblue);
+    text-align: right;
 }
